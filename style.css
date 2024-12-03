@@ -1,0 +1,127 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/banner-com-uma-bela-mulher-negra-retrato-feminino-de-uma-jovem-afro-americana-com-um-rosto-bonito_972324-69742.jpg?semt=ais_hybrid);
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+}
+
+.box {}
+
+
+
+header {
+
+    background-size: 100%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.caixa {
+    background-color: rgb(246, 201, 85);
+    padding: 20px;
+    border-radius: 20px;
+    height: auto;
+    width: auto.;
+}
+
+
+footer.caixa {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: flex-start;
+   
+    padding: 20px;
+    background-color: rgb(246, 201, 85);
+   
+}
+
+.footer-section {
+    flex: 1;
+    
+    margin-right: 20px;
+    
+}
+
+.footer-section h2,
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    
+}
+
+.footer-section a {
+    text-decoration: none;
+    
+    color: #333;
+
+    font-weight: bold;
+}
+
+.footer-section a:hover {
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    footer.caixa {
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-right: 0;
+        margin-bottom: 20px;
+        
+    }
+}
+
+.container {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+   
+}
+
+
+.padding {
+    padding: 96px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 250px;
+    border-radius: 12px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap')
